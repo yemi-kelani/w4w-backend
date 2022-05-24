@@ -9,7 +9,7 @@ app = Flask(__name__)
 
 @app.route('/wakeup')
 def wake_up():
-    return 'Backend is awake!'
+    return 'Backend is awake!!'
 
 @app.route('/besttime', methods=["POST"])
 def besttime():
